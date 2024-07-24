@@ -3,6 +3,10 @@ package bundle_test
 import (
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/bundle"
+	"github.com/fhir-fli/fhirpath-go/internal/containedresource"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/binary_go_proto"
@@ -10,10 +14,6 @@ import (
 	ppb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/patient_go_proto"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/bundle"
-	"github.com/verily-src/fhirpath-go/internal/containedresource"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 	"google.golang.org/protobuf/testing/protocmp"
 )
 

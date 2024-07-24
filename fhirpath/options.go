@@ -1,9 +1,9 @@
 package fhirpath
 
 import (
-	"github.com/verily-src/fhirpath-go/fhirpath/compopts"
-	"github.com/verily-src/fhirpath-go/fhirpath/evalopts"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/opts"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/compopts"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/evalopts"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/opts"
 )
 
 // CompileOption is a function type that modifies a passed in compileOption.

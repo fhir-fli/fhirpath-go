@@ -3,10 +3,10 @@ package protofields
 import (
 	"strings"
 
+	"github.com/fhir-fli/fhirpath-go/internal/slices"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
 	"github.com/iancoleman/strcase"
-	"github.com/verily-src/fhirpath-go/internal/slices"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )

@@ -1,8 +1,8 @@
 package reflection
 
 import (
+	"github.com/fhir-fli/fhirpath-go/internal/protofields"
 	"github.com/iancoleman/strcase"
-	"github.com/verily-src/fhirpath-go/internal/protofields"
 )
 
 // IsValidFHIRPathElement checks if the input string represents

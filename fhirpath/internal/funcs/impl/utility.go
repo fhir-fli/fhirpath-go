@@ -1,8 +1,8 @@
 package impl
 
 import (
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/expr"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/expr"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 )
 
 // TimeOfDay returns the current time as a system.Time object.

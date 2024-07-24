@@ -18,7 +18,7 @@ env:
     If you would like to make a proposal, 
     we will do our best to review it, implement it ourselves, and include it in the next release. 
     If enough proposals come through, we will certainly revisit this policy to make the package as useful as possible.
-    [Contribution Guidelines](https://github.com/verily-src/fhirpath-go/CONTRIBUTING.md).
+    [Contribution Guidelines](https://github.com/fhir-fli/fhirpath-go/CONTRIBUTING.md).
 
     Thank you! 🙂
 

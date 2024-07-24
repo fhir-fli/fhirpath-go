@@ -1,6 +1,7 @@
 package fhir_test
 
 import (
+	"github.com/fhir-fli/fhirpath-go/fhir"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/account_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/activity_definition_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/adverse_event_go_proto"
@@ -147,7 +148,6 @@ import (
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/value_set_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/verification_result_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/vision_prescription_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
 )
 
 // Note: The tests in this file are all statically validated by the interface

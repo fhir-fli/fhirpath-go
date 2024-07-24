@@ -6,11 +6,11 @@ import (
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	ppb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/patient_go_proto"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/element/canonical"
+	"github.com/fhir-fli/fhirpath-go/internal/element/extension"
+	"github.com/fhir-fli/fhirpath-go/internal/element/meta"
 	"github.com/google/go-cmp/cmp"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/element/canonical"
-	"github.com/verily-src/fhirpath-go/internal/element/extension"
-	"github.com/verily-src/fhirpath-go/internal/element/meta"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 )

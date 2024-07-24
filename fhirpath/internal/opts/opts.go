@@ -9,9 +9,9 @@ package opts
 import (
 	"errors"
 
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/expr"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/funcs"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/parser"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/expr"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/funcs"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/parser"
 )
 
 // CompileConfig provides the configuration values for the Compile command.

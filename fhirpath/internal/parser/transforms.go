@@ -1,6 +1,6 @@
 package parser
 
-import "github.com/verily-src/fhirpath-go/fhirpath/internal/expr"
+import "github.com/fhir-fli/fhirpath-go/fhirpath/internal/expr"
 
 // A VisitorTransform is a function which transforms the specified
 // expression. This is used in FHIRPath Patch to modify expressions.

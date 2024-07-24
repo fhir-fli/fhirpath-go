@@ -1,6 +1,6 @@
 package funcs
 
-import "github.com/verily-src/fhirpath-go/fhirpath/internal/funcs/impl"
+import "github.com/fhir-fli/fhirpath-go/fhirpath/internal/funcs/impl"
 
 // BaseTable holds the default mapping of all
 // FHIRPath functions. Unimplemented functions return an

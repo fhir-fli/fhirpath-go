@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
 )
 
 // ToString converts a basic FHIR Primitive into a human-readable string

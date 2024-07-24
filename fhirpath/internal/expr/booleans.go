@@ -1,6 +1,6 @@
 package expr
 
-import "github.com/verily-src/fhirpath-go/fhirpath/system"
+import "github.com/fhir-fli/fhirpath-go/fhirpath/system"
 
 func evaluateAnd(left []system.Boolean, right []system.Boolean) system.Collection {
 	if len(left) > 0 && len(right) > 0 {

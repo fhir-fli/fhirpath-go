@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/internal/fhirtest"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	"github.com/google/go-cmp/cmp"
-	"github.com/verily-src/fhirpath-go/fhirtest"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 )
 
 func TestIdentityOf_NilInputs_ReturnsNoValue(t *testing.T) {

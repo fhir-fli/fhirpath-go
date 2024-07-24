@@ -1,9 +1,9 @@
 package resource
 
 import (
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/resourceopt"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/resourceopt"
 )
 
 // WithMeta returns a resource Option for setting the Resource Meta with the

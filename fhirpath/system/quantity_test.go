@@ -3,7 +3,7 @@ package system_test
 import (
 	"testing"
 
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 )
 
 func TestParseQuantity_ErrorsOnInvalidString(t *testing.T) {

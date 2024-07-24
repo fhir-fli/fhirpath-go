@@ -3,8 +3,8 @@ package funcs_test
 import (
 	"testing"
 
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/funcs"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/funcs"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 )
 
 func TestRegister_RaisesError(t *testing.T) {

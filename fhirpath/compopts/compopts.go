@@ -9,8 +9,8 @@ package compopts
 import (
 	"errors"
 
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/opts"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/parser"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/opts"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/parser"
 )
 
 var ErrMultipleTransforms = errors.New("multiple transforms provided")

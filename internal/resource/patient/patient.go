@@ -4,6 +4,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	appb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/appointment_go_proto"
 	arpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/appointment_response_go_proto"
@@ -34,8 +36,6 @@ import (
 	surpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/supply_request_go_proto"
 	tpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/task_go_proto"
 	vppb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/vision_prescription_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 )
 
 var (

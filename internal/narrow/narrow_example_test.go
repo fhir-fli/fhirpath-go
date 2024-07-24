@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/verily-src/fhirpath-go/internal/narrow"
+	"github.com/fhir-fli/fhirpath-go/internal/narrow"
 )
 
 func ExampleToInteger_narrows() {

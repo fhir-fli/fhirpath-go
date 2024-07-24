@@ -3,13 +3,13 @@ package system_test
 import (
 	"testing"
 
-	"github.com/verily-src/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/fhir"
 	"google.golang.org/protobuf/proto"
 
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	ppb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/patient_go_proto"
 	"github.com/google/go-cmp/cmp"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
 )
 
 func TestEqual_ReturnsResult(t *testing.T) {

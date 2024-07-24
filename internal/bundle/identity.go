@@ -3,9 +3,9 @@ package bundle
 import (
 	"errors"
 
+	"github.com/fhir-fli/fhirpath-go/internal/element/reference"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
-	"github.com/verily-src/fhirpath-go/internal/element/reference"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 )
 
 var (

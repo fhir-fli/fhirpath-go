@@ -13,7 +13,7 @@ This package aims to be compliant with both:
 ## Import
 
 ```go
-import "github.com/verily-src/fhirpath-go/fhirpath"
+import "github.com/fhir-fli/fhirpath-go/fhirpath"
 ```
 
 ## Usage

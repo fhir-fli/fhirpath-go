@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/verily-src/fhirpath-go/internal/narrow"
+	"github.com/fhir-fli/fhirpath-go/internal/narrow"
 	"golang.org/x/exp/constraints"
 )
 

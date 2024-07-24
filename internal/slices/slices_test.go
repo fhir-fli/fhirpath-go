@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/internal/slices"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	"github.com/google/go-cmp/cmp"
-	"github.com/verily-src/fhirpath-go/internal/slices"
 	"golang.org/x/exp/constraints"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"

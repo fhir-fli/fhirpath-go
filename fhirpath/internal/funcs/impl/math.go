@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/expr"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 	"github.com/shopspring/decimal"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/expr"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
 )
 
 var (

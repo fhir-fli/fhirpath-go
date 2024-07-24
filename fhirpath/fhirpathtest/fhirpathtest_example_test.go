@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/fhirpath/fhirpathtest"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/fhirpathtest"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 )
 
 func ExampleError() {

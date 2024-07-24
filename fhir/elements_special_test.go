@@ -3,8 +3,8 @@ package fhir_test
 import (
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
 	"github.com/google/go-cmp/cmp"
-	"github.com/verily-src/fhirpath-go/fhir"
 )
 
 func TestNarrative(t *testing.T) {

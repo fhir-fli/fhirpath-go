@@ -2,10 +2,10 @@ package compile
 
 import (
 	"github.com/antlr4-go/antlr/v4"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/funcs"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/grammar"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/opts"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/parser"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/funcs"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/grammar"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/opts"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/parser"
 )
 
 // PopulateConfig creates a CompileConfig and prepopulates it with

@@ -3,8 +3,8 @@ package resource_test
 import (
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	"github.com/google/go-cmp/cmp"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 	"google.golang.org/protobuf/testing/protocmp"
 )
 

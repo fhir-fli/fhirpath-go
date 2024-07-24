@@ -3,9 +3,9 @@ package etag_test
 import (
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/internal/element/etag"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/verily-src/fhirpath-go/internal/element/etag"
 )
 
 func TestVersionIDFromEtag(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/stablerand"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/stablerand"
 )
 
 // stableRandomID generates a random ID value that will be stable across

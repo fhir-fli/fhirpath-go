@@ -2,8 +2,8 @@ package impl
 
 import (
 	"fmt"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/expr"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/expr"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 )
 
 // AllTrue Takes a collection of Boolean values and returns true if all the items are true.

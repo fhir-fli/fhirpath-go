@@ -3,10 +3,10 @@ package meta_test
 import (
 	"fmt"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/element/canonical"
+	"github.com/fhir-fli/fhirpath-go/internal/element/meta"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/element/canonical"
-	"github.com/verily-src/fhirpath-go/internal/element/meta"
 )
 
 func ExampleUpdate() {

@@ -4,13 +4,13 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/element/identifier"
+	"github.com/fhir-fli/fhirpath-go/internal/protofields"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
+	"github.com/fhir-fli/fhirpath-go/internal/slices"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/element/identifier"
-	"github.com/verily-src/fhirpath-go/internal/protofields"
-	"github.com/verily-src/fhirpath-go/internal/resource"
-	"github.com/verily-src/fhirpath-go/internal/slices"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

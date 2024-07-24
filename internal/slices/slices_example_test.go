@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/verily-src/fhirpath-go/internal/slices"
+	"github.com/fhir-fli/fhirpath-go/internal/slices"
 )
 
 func ExampleAll() {

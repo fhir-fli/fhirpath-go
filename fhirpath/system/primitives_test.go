@@ -5,8 +5,8 @@ import (
 	"math"
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 	"github.com/google/go-cmp/cmp"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
 )
 
 func TestParseString_ReplacesEscapeSequences(t *testing.T) {

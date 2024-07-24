@@ -3,8 +3,8 @@ package fhir
 import (
 	"time"
 
+	"github.com/fhir-fli/fhirpath-go/internal/units"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/internal/units"
 )
 
 // DurationFromTime converts an R4 FHIR Time Element into an R4 FHIR Duration

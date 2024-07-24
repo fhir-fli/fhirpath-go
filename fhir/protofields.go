@@ -1,7 +1,7 @@
 package fhir
 
 import (
-	"github.com/verily-src/fhirpath-go/internal/protofields"
+	"github.com/fhir-fli/fhirpath-go/internal/protofields"
 )
 
 // UnwrapValueX obtains the underlying Message for oneof ValueX

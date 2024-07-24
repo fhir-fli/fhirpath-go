@@ -3,9 +3,9 @@ package fhir
 import (
 	"time"
 
+	"github.com/fhir-fli/fhirpath-go/internal/slices"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/internal/slices"
 )
 
 const ucumUnitSystem = "http://unitsofmeasure.org"

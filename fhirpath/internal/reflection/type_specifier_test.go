@@ -3,11 +3,11 @@ package reflection_test
 import (
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/reflection"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	ppb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/patient_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/reflection"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
 )
 
 func TestTypeSpecifier_Is(t *testing.T) {

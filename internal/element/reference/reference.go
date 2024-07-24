@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"path"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/element"
+	"github.com/fhir-fli/fhirpath-go/internal/protofields"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	"github.com/google/fhir/go/jsonformat"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/element"
-	"github.com/verily-src/fhirpath-go/internal/protofields"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 	"google.golang.org/protobuf/proto"
 )
 

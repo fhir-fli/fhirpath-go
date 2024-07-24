@@ -4,6 +4,12 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/fhirpath"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/patch"
+	"github.com/fhir-fli/fhirpath-go/internal/containedresource"
+	"github.com/fhir-fli/fhirpath-go/internal/element/extension"
+	"github.com/fhir-fli/fhirpath-go/internal/element/reference"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
@@ -14,12 +20,6 @@ import (
 	rgpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/request_group_go_proto"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/fhirpath"
-	"github.com/verily-src/fhirpath-go/fhirpath/patch"
-	"github.com/verily-src/fhirpath-go/internal/containedresource"
-	"github.com/verily-src/fhirpath-go/internal/element/extension"
-	"github.com/verily-src/fhirpath-go/internal/element/reference"
 	"google.golang.org/protobuf/testing/protocmp"
 )
 

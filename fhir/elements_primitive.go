@@ -6,9 +6,9 @@ import (
 	"math"
 	"regexp"
 
+	"github.com/fhir-fli/fhirpath-go/internal/slices"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	"github.com/google/uuid"
-	"github.com/verily-src/fhirpath-go/internal/slices"
 )
 
 var (

@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/fhir-fli/fhirpath-go/internal/bundle"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	"github.com/google/fhir/go/fhirversion"
 	"github.com/google/fhir/go/jsonformat"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	r4pb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
 	ppb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/patient_go_proto"
 	"github.com/mattbaird/jsonpatch"
-	"github.com/verily-src/fhirpath-go/internal/bundle"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 	"google.golang.org/protobuf/proto"
 )
 

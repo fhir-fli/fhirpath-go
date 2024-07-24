@@ -5,15 +5,15 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/containedresource"
+	"github.com/fhir-fli/fhirpath-go/internal/element/reference"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/binary_go_proto"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
 	"github.com/google/uuid"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/containedresource"
-	"github.com/verily-src/fhirpath-go/internal/element/reference"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 )
 
 var (

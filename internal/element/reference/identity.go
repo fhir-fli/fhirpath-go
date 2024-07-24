@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	"github.com/iancoleman/strcase"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

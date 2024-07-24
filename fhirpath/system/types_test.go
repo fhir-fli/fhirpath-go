@@ -3,6 +3,9 @@ package system_test
 import (
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
+	"github.com/fhir-fli/fhirpath-go/internal/element/canonical"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	mrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/medication_request_go_proto"
@@ -10,9 +13,6 @@ import (
 	qpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/questionnaire_go_proto"
 	"github.com/google/go-cmp/cmp"
 	"github.com/shopspring/decimal"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
-	"github.com/verily-src/fhirpath-go/internal/element/canonical"
 )
 
 var date, _ = system.ParseDate("2012-12-31")

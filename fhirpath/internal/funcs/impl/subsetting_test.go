@@ -3,16 +3,16 @@ package impl_test
 import (
 	"testing"
 
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/expr/exprtest"
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/expr/exprtest"
 
 	"google.golang.org/protobuf/testing/protocmp"
 
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/expr"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/internal/funcs/impl"
+	"github.com/fhir-fli/fhirpath-go/fhirpath/system"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/expr"
-	"github.com/verily-src/fhirpath-go/fhirpath/internal/funcs/impl"
-	"github.com/verily-src/fhirpath-go/fhirpath/system"
 )
 
 func TestFirst(t *testing.T) {

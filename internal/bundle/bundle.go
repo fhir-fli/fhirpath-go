@@ -6,12 +6,12 @@ unwrapping bundle/entry objects.
 package bundle
 
 import (
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/bundleopt"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
+	"github.com/fhir-fli/fhirpath-go/internal/slices"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/bundleopt"
-	"github.com/verily-src/fhirpath-go/internal/resource"
-	"github.com/verily-src/fhirpath-go/internal/slices"
 )
 
 // New creates a new New by building it from the bundle options.

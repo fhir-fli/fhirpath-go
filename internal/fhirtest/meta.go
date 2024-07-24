@@ -3,9 +3,9 @@ package fhirtest
 import (
 	"time"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/element/meta"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/internal/element/meta"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
@@ -55,7 +55,7 @@ func UpdateMeta(resource fhir.Resource, versionID string, updateTime time.Time) 
 }
 
 // NOTE: This method is deprecated and should use the production one in
-// "github.com/verily-src/fhirpath-go/internal/element/meta"
+// "github.com/fhir-fli/fhirpath-go/internal/element/meta"
 func ReplaceMeta(resource fhir.Resource, m *datatypes_go_proto.Meta) {
 	meta.ReplaceInResource(resource, m)
 }

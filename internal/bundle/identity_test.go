@@ -3,12 +3,12 @@ package bundle_test
 import (
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/internal/bundle"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/verily-src/fhirpath-go/internal/bundle"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 )
 
 func newIdentity(t *testing.T, typeName, id, version string) *resource.Identity {

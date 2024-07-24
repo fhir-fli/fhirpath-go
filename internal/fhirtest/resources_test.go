@@ -4,14 +4,14 @@ import (
 	"regexp"
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/fhir"
+	"github.com/fhir-fli/fhirpath-go/internal/fhirtest"
+	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/patient_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/questionnaire_go_proto"
 	"github.com/google/go-cmp/cmp"
-	"github.com/verily-src/fhirpath-go/fhir"
-	"github.com/verily-src/fhirpath-go/fhirtest"
-	"github.com/verily-src/fhirpath-go/internal/resource"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 )
