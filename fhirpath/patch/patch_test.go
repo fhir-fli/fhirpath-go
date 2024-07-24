@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/containedresource"
 	"github.com/fhir-fli/fhirpath-go/fhir"
 	"github.com/fhir-fli/fhirpath-go/fhirpath"
 	"github.com/fhir-fli/fhirpath-go/fhirpath/patch"
-	"github.com/fhir-fli/fhirpath-go/internal/containedresource"
 	"github.com/fhir-fli/fhirpath-go/internal/element/extension"
 	"github.com/fhir-fli/fhirpath-go/internal/element/reference"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"

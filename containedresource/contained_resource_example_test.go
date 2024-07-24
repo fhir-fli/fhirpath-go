@@ -3,8 +3,8 @@ package containedresource_test
 import (
 	"fmt"
 
+	"github.com/fhir-fli/fhirpath-go/containedresource"
 	"github.com/fhir-fli/fhirpath-go/fhir"
-	"github.com/fhir-fli/fhirpath-go/internal/containedresource"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/patient_go_proto"
 	"google.golang.org/protobuf/proto"

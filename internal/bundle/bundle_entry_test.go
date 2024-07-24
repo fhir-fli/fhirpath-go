@@ -3,9 +3,9 @@ package bundle_test
 import (
 	"testing"
 
+	"github.com/fhir-fli/fhirpath-go/containedresource"
 	"github.com/fhir-fli/fhirpath-go/fhir"
 	"github.com/fhir-fli/fhirpath-go/internal/bundle"
-	"github.com/fhir-fli/fhirpath-go/internal/containedresource"
 	"github.com/fhir-fli/fhirpath-go/internal/resource"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
