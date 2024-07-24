@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/fhir-fli/fhirpath-go/containedresource"
 	"github.com/fhir-fli/fhirpath-go/fhir"
 	"github.com/fhir-fli/fhirpath-go/internal/element/reference"
 	"github.com/fhir-fli/fhirpath-go/internal/resource"
+	"github.com/fhir-fli/fhirpath-go/pkg/containedresource"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/binary_go_proto"

@@ -4,12 +4,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/fhir-fli/fhirpath-go/containedresource"
 	"github.com/fhir-fli/fhirpath-go/fhir"
 	"github.com/fhir-fli/fhirpath-go/fhirpath"
 	"github.com/fhir-fli/fhirpath-go/fhirpath/patch"
 	"github.com/fhir-fli/fhirpath-go/internal/element/extension"
 	"github.com/fhir-fli/fhirpath-go/internal/element/reference"
+	"github.com/fhir-fli/fhirpath-go/pkg/containedresource"
 	cpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/codes_go_proto"
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
