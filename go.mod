@@ -1,4 +1,4 @@
-module github.com/verily-src/fhirpath-go
+module github.com/fhir-fli/fhirpath-go
 
 go 1.22.2
 
