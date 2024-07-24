@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/verily-src/fhirpath-go/internal/fhir"
+	"github.com/verily-src/fhirpath-go/fhir"
 )
 
 func TestEscapeSearchParam(t *testing.T) {

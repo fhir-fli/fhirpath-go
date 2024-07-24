@@ -3,7 +3,7 @@ package impl
 import (
 	"fmt"
 
-	"github.com/verily-src/fhirpath-go/internal/fhir"
+	"github.com/verily-src/fhirpath-go/fhir"
 	"github.com/verily-src/fhirpath-go/fhirpath/internal/expr"
 	"github.com/verily-src/fhirpath-go/fhirpath/system"
 )

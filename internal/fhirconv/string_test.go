@@ -6,8 +6,8 @@ import (
 	"time"
 
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
-	"github.com/verily-src/fhirpath-go/internal/fhir"
-	"github.com/verily-src/fhirpath-go/internal/fhirconv"
+	"github.com/verily-src/fhirpath-go/fhir"
+	"github.com/verily-src/fhirpath-go/fhirconv"
 )
 
 func TestToString_String_ReturnsValue(t *testing.T) {

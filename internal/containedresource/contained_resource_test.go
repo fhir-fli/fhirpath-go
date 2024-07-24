@@ -10,9 +10,9 @@ import (
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	bcrpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/bundle_and_contained_resource_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/patient_go_proto"
-	"github.com/verily-src/fhirpath-go/internal/fhir"
+	"github.com/verily-src/fhirpath-go/fhir"
+	"github.com/verily-src/fhirpath-go/fhirtest"
 	"github.com/verily-src/fhirpath-go/internal/containedresource"
-	"github.com/verily-src/fhirpath-go/internal/fhirtest"
 	"github.com/verily-src/fhirpath-go/internal/resource"
 	"google.golang.org/protobuf/proto"
 )

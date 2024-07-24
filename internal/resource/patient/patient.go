@@ -34,7 +34,7 @@ import (
 	surpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/supply_request_go_proto"
 	tpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/task_go_proto"
 	vppb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/vision_prescription_go_proto"
-	"github.com/verily-src/fhirpath-go/internal/fhir"
+	"github.com/verily-src/fhirpath-go/fhir"
 	"github.com/verily-src/fhirpath-go/internal/resource"
 )
 

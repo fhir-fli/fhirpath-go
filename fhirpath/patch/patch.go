@@ -6,9 +6,7 @@ import (
 
 	dtpb "github.com/google/fhir/go/proto/google/fhir/proto/r4/core/datatypes_go_proto"
 	"github.com/iancoleman/strcase"
-	"github.com/verily-src/fhirpath-go/internal/slices"
-	"github.com/verily-src/fhirpath-go/internal/fhir"
-	"github.com/verily-src/fhirpath-go/internal/resource"
+	"github.com/verily-src/fhirpath-go/fhir"
 	"github.com/verily-src/fhirpath-go/fhirpath"
 	"github.com/verily-src/fhirpath-go/fhirpath/compopts"
 	"github.com/verily-src/fhirpath-go/fhirpath/internal/compile"
@@ -16,6 +14,8 @@ import (
 	"github.com/verily-src/fhirpath-go/fhirpath/internal/opts"
 	"github.com/verily-src/fhirpath-go/fhirpath/internal/parser"
 	"github.com/verily-src/fhirpath-go/fhirpath/system"
+	"github.com/verily-src/fhirpath-go/internal/resource"
+	"github.com/verily-src/fhirpath-go/internal/slices"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )

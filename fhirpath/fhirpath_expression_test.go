@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/verily-src/fhirpath-go/internal/fhir"
+	"github.com/verily-src/fhirpath-go/fhir"
 	"github.com/verily-src/fhirpath-go/fhirpath"
 	"github.com/verily-src/fhirpath-go/fhirpath/fhirpathtest"
 	"github.com/verily-src/fhirpath-go/fhirpath/system"

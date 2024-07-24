@@ -147,7 +147,7 @@ import (
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/value_set_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/verification_result_go_proto"
 	"github.com/google/fhir/go/proto/google/fhir/proto/r4/core/resources/vision_prescription_go_proto"
-	"github.com/verily-src/fhirpath-go/internal/fhir"
+	"github.com/verily-src/fhirpath-go/fhir"
 )
 
 // Note: The tests in this file are all statically validated by the interface
